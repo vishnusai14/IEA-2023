@@ -1,0 +1,8 @@
+Navigation Button Not working in Phone
+Change the Intecho Size in Mobile Phone  -Done
+Change the background Color - Done
+Change the text in about us
+Change the images in the lab section
+Change the Photo in Teams -Done 
+Link The lab picture to it's corresponding pdf in the mitindia website
+Ask to add testimonial 
