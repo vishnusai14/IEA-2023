@@ -23,19 +23,54 @@ const Header = () => {
               id="navbarCollapse"
             >
               <div className="navbar-nav py-0">
-                <a href="index.html" className="nav-item nav-link active">
+                <a
+                  href="/"
+                  className={
+                    window.location.pathname === "/"
+                      ? "select nav-item nav-link"
+                      : "nav-item nav-link"
+                  }
+                >
                   Home
                 </a>
-                <a href="about.html" className="nav-item nav-link">
+                <a
+                  href="/about"
+                  className={
+                    window.location.pathname === "/about"
+                      ? "select nav-item nav-link"
+                      : "nav-item nav-link"
+                  }
+                >
                   About
                 </a>
-                <a href="course.html" className="nav-item nav-link">
+                <a
+                  href="/events"
+                  className={
+                    window.location.pathname === "/events"
+                      ? "select nav-item nav-link"
+                      : "nav-item nav-link"
+                  }
+                >
                   Events
                 </a>
-                <a href="teacher.html" className="nav-item nav-link">
+                <a
+                  href="/workshops"
+                  className={
+                    window.location.pathname === "/workshops"
+                      ? "select nav-item nav-link"
+                      : "nav-item nav-link"
+                  }
+                >
                   Workshops
                 </a>
-                <a href="contact.html" className="nav-item nav-link">
+                <a
+                  href="/contact"
+                  className={
+                    window.location.pathname === "/contact"
+                      ? "select nav-item nav-link"
+                      : "nav-item nav-link"
+                  }
+                >
                   Contact
                 </a>
               </div>

@@ -14,7 +14,14 @@ const Workshop = () => {
           </a>
           <div className="border-top mt-4 pt-4">
             <div className="d-flex justify-content-between">
-              <h6 className="cur-point m-0">Know More</h6>
+              <h6
+                onClick={() => {
+                  window.location.pathname = "/workshops";
+                }}
+                className="cur-point m-0"
+              >
+                Know More
+              </h6>
               <h5 className="m-0">$99</h5>
             </div>
           </div>

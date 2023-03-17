@@ -6,3 +6,5 @@ Change the images in the lab section
 Change the Photo in Teams -Done 
 Link The lab picture to it's corresponding pdf in the mitindia website
 Ask to add testimonial 
+Change the Event Image and Event Content
+Change the Workshop image and workshop Content

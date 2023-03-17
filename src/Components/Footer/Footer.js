@@ -48,16 +48,16 @@ const Footer = () => {
                   Main Links
                 </h5>
                 <div className="d-flex flex-column justify-content-start">
-                  <a className="text-white mb-2" href="#">
+                  <a className="text-white mb-2" href="/about">
                     <i className="fa fa-angle-right mr-2"></i>About
                   </a>
-                  <a className="text-white mb-2" href="#">
+                  <a className="text-white mb-2" href="/events">
                     <i className="fa fa-angle-right mr-2"></i>Events
                   </a>
-                  <a className="text-white mb-2" href="#">
+                  <a className="text-white mb-2" href="/workshops">
                     <i className="fa fa-angle-right mr-2"></i>Workshops
                   </a>
-                  <a className="text-white mb-2" href="#">
+                  <a className="text-white mb-2" href="/contact">
                     <i className="fa fa-angle-right mr-2"></i>Contact
                   </a>
                 </div>

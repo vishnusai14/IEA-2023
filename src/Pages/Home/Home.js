@@ -61,18 +61,18 @@ class Home extends React.Component {
         </div>
         <About />
         {/* Render this conditionaaly */}
-        <div class="container-fluid py-5">
-          <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
+        <div className="container-fluid py-5">
+          <div className="container pt-5 pb-3">
+            <div className="text-center mb-5">
               <h5
-                class="text-primary text-uppercase mb-3"
+                className="text-primary text-uppercase mb-3"
                 style={{ letterSpacing: "5px" }}
               >
                 Department
               </h5>
               <h1>Explore Our Labs</h1>
             </div>
-            <div class="row">
+            <div className="row">
               <Labs />
               <Labs />
               <Labs />
@@ -87,55 +87,55 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div class="container-fluid py-5">
-          <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
+        <div className="container-fluid py-5">
+          <div className="container pt-5 pb-3">
+            <div className="text-center mb-5">
               <h5
-                class="text-primary text-uppercase mb-3"
+                className="text-primary text-uppercase mb-3"
                 style={{ letterSpacing: "5px" }}
               >
                 Our Events
               </h5>
               {/* Link To the Event Page  */}
-              <p class="customP text-primary m-0">Know More</p>
+              <p className="customP text-primary m-0">Know More</p>
             </div>
-            <div class="row pb-3">
+            <div className="row pb-3">
               <Event />
               <Event />
               <Event />
             </div>
           </div>
         </div>
-        <div class="container-fluid py-5">
-          <div class="container py-5">
-            <div class="text-center mb-5">
+        <div className="container-fluid py-5">
+          <div className="container py-5">
+            <div className="text-center mb-5">
               <h5
-                class="text-primary text-uppercase mb-3"
-                style={{ letterSpacing: "5px" }}
+                className="text-uppercase mb-3"
+                style={{ letterSpacing: "5px", color: "#44425a !important" }}
               >
                 Workshops
               </h5>
-              <p class="customP text-primary m-0">Know More</p>
+              <p className="customP text-primary m-0">Know More</p>
             </div>
-            <div class="row">
+            <div className="row">
               <Workshop />
               <Workshop />
               <Workshop />
             </div>
           </div>
         </div>
-        <div class="container-fluid py-5">
-          <div class="container pt-5 pb-3">
-            <div class="text-center mb-5">
+        <div className="container-fluid py-5">
+          <div className="container pt-5 pb-3">
+            <div className="text-center mb-5">
               <h5
-                class="text-primary text-uppercase mb-3"
+                className="text-primary text-uppercase mb-3"
                 style={{ letterSpacing: "5px" }}
               >
                 Teams
               </h5>
               <h1>Meet Our Teams</h1>
             </div>
-            <div class="row">
+            <div className="row">
               <Teams
                 li="linkedin.com/in/kishore-kumar-997467218"
                 img={Kishore}

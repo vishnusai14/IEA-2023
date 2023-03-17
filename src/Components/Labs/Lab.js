@@ -8,8 +8,8 @@ const Labs = () => {
             <small className="m-0">
               <i className="fas fa-hubspot text-primary mr-2"></i>Lab Name
             </small>
-            <small class="m-0">
-              <i class="far fa-clock text-primary mr-2"></i>time of build
+            <small className="m-0">
+              <i className="far fa-clock text-primary mr-2"></i>time of build
             </small>
           </div>
           <a className="h5" href="">
@@ -17,7 +17,14 @@ const Labs = () => {
           </a>
           <div className="border-top mt-4 pt-4">
             <div className="d-flex justify-content-between">
-              <h6 className="cur-point m-0">Know More</h6>
+              <h6
+                onClick={() => {
+                  window.location.pathname = "/about";
+                }}
+                className="cur-point m-0"
+              >
+                Know More
+              </h6>
             </div>
           </div>
         </div>

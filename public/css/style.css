@@ -10179,7 +10179,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
   padding: 20px 15px;
-  color: #44425a;
+  color: white;
   font-size: 18px;
   font-weight: 500;
   outline: none;
@@ -10419,7 +10419,7 @@ body {
 }
 
 .navbar-nav a {
-  color: white !important;
+  color: white;
 }
 
 .navbar-nav a:hover {
@@ -10428,4 +10428,18 @@ body {
 
 .select {
   color: #ff6600 !important;
+}
+
+.m-auto {
+  margin: auto !important;
+  background: #f9934e;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.color-yellow {
+  color: #ff6600 !important;
+}
+.fit {
+  width: fit-content !important;
 }
