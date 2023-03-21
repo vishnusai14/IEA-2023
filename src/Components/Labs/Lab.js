@@ -12,9 +12,7 @@ const Labs = () => {
               <i className="far fa-clock text-primary mr-2"></i>time of build
             </small>
           </div>
-          <a className="h5" href="">
-            A small desciption about the lab
-          </a>
+          <h5 className="h5">A small desciption about the lab</h5>
           <div className="border-top mt-4 pt-4">
             <div className="d-flex justify-content-between">
               <h6

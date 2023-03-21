@@ -10443,3 +10443,7 @@ body {
 .fit {
   width: fit-content !important;
 }
+
+.just-center {
+  justify-content: center !important;
+}

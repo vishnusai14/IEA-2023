@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact/Contact";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import React from "react";
+import Sponsors from "./Pages/Sponsors/Sponsors";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/workshops",
     element: <Workshops />,
+  },
+  {
+    path: "/sponsors",
+    element: <Sponsors />,
   },
   {
     path: "/contact",

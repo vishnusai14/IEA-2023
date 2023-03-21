@@ -13,9 +13,7 @@ const Event = (props) => {
                 <i className="far fa-folder text-primary mr-2"></i>Details
               </small>
             </div>
-            <a className="h5" href="">
-              Event Name
-            </a>
+            <h5 className="h5">Event Name</h5>
             <div className="border-top mt-4 pt-4">
               <div className="d-flex justify-content-between">
                 <h6 className="m-0">

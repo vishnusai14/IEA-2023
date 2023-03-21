@@ -64,6 +64,16 @@ const Header = () => {
                   Workshops
                 </a>
                 <a
+                  href="/sponsors"
+                  className={
+                    window.location.pathname === "/sponsors"
+                      ? "select nav-item nav-link"
+                      : "nav-item nav-link"
+                  }
+                >
+                  Sponsors
+                </a>
+                <a
                   href="/contact"
                   className={
                     window.location.pathname === "/contact"

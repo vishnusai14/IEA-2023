@@ -32,7 +32,10 @@ const Footer = () => {
                   <a className="btn btn-outline-light btn-square mr-2" href="#">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a className="btn btn-outline-light btn-square mr-2" href="#">
+                  <a
+                    className="btn btn-outline-light btn-square mr-2"
+                    href="https://www.linkedin.com/company/instrumentation-engineers-association-mit-au/"
+                  >
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                   <a className="btn btn-outline-light btn-square" href="#">
@@ -56,6 +59,9 @@ const Footer = () => {
                   </a>
                   <a className="text-white mb-2" href="/workshops">
                     <i className="fa fa-angle-right mr-2"></i>Workshops
+                  </a>
+                  <a className="text-white mb-2" href="/sponsors">
+                    <i className="fa fa-angle-right mr-2"></i>Sponsors
                   </a>
                   <a className="text-white mb-2" href="/contact">
                     <i className="fa fa-angle-right mr-2"></i>Contact
